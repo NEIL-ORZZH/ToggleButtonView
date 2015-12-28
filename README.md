@@ -2,7 +2,7 @@
 实现根据手势滑动的自定义开关控件
 <h1>效果预览<h1>
 
-![image](https://github.com/songnigo/ToggleButtonView/blob/master/ToggleButtonView/screenShots/main.png)
+<img src="https://github.com/songnigo/ToggleButtonView/blob/master/ToggleButtonView/screenShots/main.png" alt="" style="max-width:100%;">
 
 <h1>使用方法</h1>
 <h3>build.gradle文件</h3>
