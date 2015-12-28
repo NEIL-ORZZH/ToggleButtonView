@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleButtonView">
+        <attr name="bgLineColor" format="color|reference"/>
+
+        <attr name="bgLineColorRadius" format="dimension|reference"/>
+
+        <attr name="bgLineHeight" format="dimension|reference"/>
+
+        <attr name="circleColor" format="color|reference"/>
+
+        <attr name="circlePadding" format="dimension|reference"/>
+
+        <attr name="onColor" format="color|reference"/>
+
+        <attr name="offColor" format="color|reference"/>
+
+        <attr name="offset" format="float|reference"/>
+    </declare-styleable>
+</resources>
