@@ -101,6 +101,14 @@ public class ToggleButtonView extends View{
         setLayerType(LAYER_TYPE_SOFTWARE, null);
     }
 
+    /**
+     * get toggleButton state
+     * @return
+     */
+    public boolean getState() {
+        return mState;
+    }
+
     class ToggleSimpleOnGestureListener extends GestureDetector.SimpleOnGestureListener {
 
         @Override
