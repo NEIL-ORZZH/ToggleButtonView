@@ -23,7 +23,8 @@
         app:bgLineColorRadius="3dp"
         android:id="@+id/toggleButton"/>
 <h1>添加监听</h1>
-        ((ToggleButtonView)findViewById(R.id.toggleButton)).setOnToggleButtonChangedListener(new       ToggleButtonView.OnToggleButtonChanged() {
+        ((ToggleButtonView)findViewById(R.id.toggleButton)).setOnToggleButtonChangedListener(
+        new ToggleButtonView.OnToggleButtonChanged() {   
             @Override
             public void onToggle(boolean toggle) {
                 Log.i(TAG, toggle + "");
